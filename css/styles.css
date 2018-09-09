@@ -118,12 +118,13 @@ span {
     transform: rotateZ(45deg);
     position: relative;
     top: -18px;
-    margin: 0 auto -34px auto;
+    margin: 0 auto -30px auto;
     background-color: white;
 }
 
 .bottom-img {
     width: 100%;
+    min-height: 35%;
 }
 
 .content-title {
@@ -243,9 +244,39 @@ span {
 
 .shop {
     display: flex;
+}
+
+.shop-group {
+    flex: 1 1 33%;
+    display: flex;
     flex-wrap: wrap;
 }
 
+.shop-item {
+
+}
+
+.shop-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-item.small {
+    width: 50%;
+    /* height: 320px; */
+}
+
+.shop-item.horizontal {
+    width: 100%;
+    /* height: 320px; */
+}
+
+.shop-item.vertical {
+    width: 50%;
+}
+
+
+/* 
 .shop-item {
     height: 534px;
     overflow: hidden;
@@ -278,7 +309,7 @@ span {
 .shop-button {
     height: 200px;
     background-color: #282f35;
-}
+} */
 
 .mail {
     height: 469px;
