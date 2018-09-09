@@ -142,7 +142,7 @@ span {
 }
 
 .catalog-item .content-container  img {
-    width: 30%;
+    width: 160px;
 }
 
 .twitter {
@@ -161,7 +161,8 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    height: 100%;
+    justify-content: space-around;
 }
 
 .twitter-text {
@@ -191,11 +192,21 @@ span {
 
 .shop {
     height: 534px;
+    display: flex;
+    flex-direction: row;
 }
 
 .shop-button {
     height: 200px;
     background-color: #282f35;
+}
+
+.shop-item.small {
+    flex: 1 1 33%;
+}
+
+.shop-item.large {
+    flex: 2 1 66%;
 }
 
 .mail {
