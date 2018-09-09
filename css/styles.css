@@ -33,8 +33,9 @@
     font-family: Lato, Helvetica, sans-serif;
     src: url(fonts/Lato-Bold.ttf);
     font-size: 13pt;
-    font-weight: 550;
+    font-weight: bold;
     color: #4d4959;
+    letter-spacing: 1pt;
 }
 
 .menutop-logo {
@@ -44,6 +45,10 @@
 .about {
     height: 469px;
     background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 550%;
 }
 
 .about-items {
@@ -51,14 +56,23 @@
     width: 70%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
 }
 
 .about-text {
-    font-family: Lato;
+    font-family: Lato Helvetica, sans-serif;
     src: url(fonts/Lato-Regular.ttf);
     color: #848789;
+    text-align: center;
+    line-height: 150%;
+}
+
+.about-title {
+    font-family: Lato Helvetica, sans-serif;
+    src: url(fonts/Lato-Regular.ttf);
+    letter-spacing: 2pt;
+    font-weight: bold;
+    font-size: 18pt;
 }
 
 span {
@@ -95,6 +109,7 @@ span {
     align-items: center;
     justify-content: center;
     padding: 15%;
+
 }
 
 .triangle {
@@ -102,8 +117,8 @@ span {
     height: 30px;
     transform: rotateZ(45deg);
     position: relative;
-    top: -16px;
-    margin: 0 auto -32px auto;
+    top: -18px;
+    margin: 0 auto -34px auto;
     background-color: white;
 }
 
@@ -114,11 +129,15 @@ span {
 .content-title {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .content-description {
     text-align: justify;
     line-height: 1.61;
+    font-family: Lato Helvetica, sans-serif;
+    src: url(fonts/Lato-Regular.ttf);
+    color: #848789;
 }
 
 .catalog-item .img-container {
@@ -162,16 +181,19 @@ span {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    justify-content: space-around;
+    justify-content: center;
+    line-height: 650%;
 }
 
 .twitter-text {
     font-family: Lato, Helvetica, sans-serif;
     src: url(fonts/Lato-Italic.ttf);
     font-style: italic;
+    font-weight: lighter;
     color: #848789;
-    font-size: 24pt;
+    font-size: 18pt;
     text-align: center;
+    line-height: 100%;
 }
 
 .twitter-span {
@@ -190,15 +212,50 @@ span {
     font-size: 18pt;
 }
 
-.shop {
-    height: 534px;
+.switch {
     display: flex;
     flex-direction: row;
+    width: 6%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: space-between;
 }
 
-.shop-button {
-    height: 200px;
-    background-color: #282f35;
+.round {
+    width: 13px;
+    height: 13px;
+    border-radius: 7px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border: #848789 solid 1px;
+}
+
+.round:hover {
+    width: 13px;
+    height: 13px;
+    border-radius: 7px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #848789;
+    border: #848789 solid 1px;
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-item {
+    height: 534px;
+    overflow: hidden;
+}
+
+.shop-item:hover {
+    height: 534px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #65d4a9;
 }
 
 .shop-item.small {
@@ -209,30 +266,65 @@ span {
     flex: 2 1 66%;
 }
 
+.shop-item .img-container {
+    height: 100%;
+}
+
+.shop .img-container img {
+    min-width: 100%;
+    min-height: 100;
+}
+
+.shop-button {
+    height: 200px;
+    background-color: #282f35;
+}
+
 .mail {
     height: 469px;
-}
-
-.footer {
-    height: 250px;
-    background-color: #f7f7f7;
     padding-top: 35px;
+    line-height: 550%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-item {
+.mail-item {
     margin: 0 auto;
     display: flex;
     width: 55%;
     height: 85px;
     justify-content: center;
     align-items: center;
+
 }
 
-.footer-text {
+.mail-text {
     font-family: Lato, Helvetica, sans-serif;
     src: url(fonts/Lato-Italic.ttf);
     font-style: italic;
     color: #848789;
-    font-size: 24pt;
+    font-size: 20pt;
     text-align: center;
+}
+
+.mail-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.mail-input {
+    margin: 0 auto;
+    display: flex;
+}
+
+.mail-button {
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer {
+    height:250px;
+    background-color: #f7f7f7;
 }
