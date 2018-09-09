@@ -69,13 +69,16 @@ span {
 }
 
 .catalog {
-    height: 1800px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.catalog-row {
+.catalog-item {
     height: 600px;
+    overflow: hidden;
+    flex: 1 1 33%;
 }
 
-.catalog-text {
-
+.catalog-item img {
+    min-width: 100%;
 }
