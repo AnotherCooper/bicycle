@@ -107,6 +107,10 @@ span {
     background-color: white;
 }
 
+.bottom-img {
+    width: 100%;
+}
+
 .content-title {
     text-align: center;
     margin-bottom: 30px;
@@ -121,6 +125,11 @@ span {
     height: 100%;
 }
 
+.catalog-item .img-container img {
+    min-width: 100%;
+    min-height: 100;
+}
+
 .catalog-item .content-container {
     height: 100%;
     position: relative;
@@ -132,8 +141,8 @@ span {
     justify-content: center;
 }
 
-.catalog-item img {
-    min-width: 100%;
+.catalog-item .content-container  img {
+    width: 30%;
 }
 
 .twitter {
