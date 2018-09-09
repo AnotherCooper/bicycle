@@ -64,7 +64,7 @@
 span {
     font-family: Lato, Helvetica, sans-serif;
     src: url(fonts/Lato-Bold.ttf);
-    font-size: 16pt;
+    font-size: 18pt;
     font-weight: 550;
     color: #353738;
 }
@@ -100,16 +100,34 @@ span {
 
 .twitter-text {
     font-family: Lato, Helvetica, sans-serif;
-    font-style: italic;
     src: url(fonts/Lato-Italic.ttf);
+    font-style: italic;
     color: #848789;
-    font-size: 22pt;
+    font-size: 24pt;
+    text-align: center;
 }
 
 .twitter-span {
     color: #353738;
+    font-family: Lato, Helvetica, sans-serif;
+    src: url(fonts/Lato-Bold.ttf);
+    font-weight: 550;
+    font-size: 18pt;
 }
 
 .twitter-span-alt {
     color: #848789;
+    font-family: Lato, Helvetica, sans-serif;
+    src: url(fonts/Lato-Light.ttf);
+    font-weight: 100;
+    font-size: 18pt;
+}
+
+.shop {
+    height: 534px;
+}
+
+.shop-item {
+    overflow: hidden;
+    flex: 1 1 33%;
 }
