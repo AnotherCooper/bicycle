@@ -187,8 +187,3 @@ span {
 .shop {
     height: 534px;
 }
-
-.shop-item {
-    overflow: hidden;
-    flex: 1 1 33%;
-}
