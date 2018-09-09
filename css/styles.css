@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    font-family: Lato;
-    src: url(fonts/Lato-Regular.ttf);
 }
 
 #wrapper {
@@ -16,13 +14,14 @@
     width: 100%;
     background-image: url(../images/header_img.png);
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .menutop {
     padding-top: 35px;
     margin: 0 auto;
     display: flex;
-    width: 60%;
+    width: 55%;
     justify-content: space-around;
     height: 85px;
     align-items: center;
@@ -44,10 +43,39 @@
 .about {
     height: 469px;
     background-color: #f7f7f7;
-    
 }
 
 .about-items {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text {
+    font-family: Lato;
+    src: url(fonts/Lato-Regular.ttf);
+    color: #848789;
+}
+
+span {
+    font-family: Lato;
+    src: url(fonts/Lato-Bold.ttf);
+    font-size: 16pt;
+    font-weight: 550;
+    color: #353738;
+}
+
+.catalog {
+    height: 1800px;
+}
+
+.catalog-row {
+    height: 600px;
+}
+
+.catalog-text {
+
 }
