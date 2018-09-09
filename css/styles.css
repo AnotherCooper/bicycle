@@ -178,3 +178,36 @@ span {
 .shop {
     height: 534px;
 }
+
+.shop-button {
+    height: 200px;
+    background-color: #282f35;
+}
+
+.mail {
+    height: 469px;
+}
+
+.footer {
+    height: 250px;
+    background-color: #f7f7f7;
+    padding-top: 35px;
+}
+
+.footer-item {
+    margin: 0 auto;
+    display: flex;
+    width: 55%;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: Lato, Helvetica, sans-serif;
+    src: url(fonts/Lato-Italic.ttf);
+    font-style: italic;
+    color: #848789;
+    font-size: 24pt;
+    text-align: center;
+}
