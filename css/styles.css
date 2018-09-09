@@ -148,6 +148,11 @@ span {
 .twitter {
     height: 469px;
     background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+
 }
 
 .twitter-items {
