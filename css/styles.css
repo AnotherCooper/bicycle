@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Lato;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+#wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/header_img.png);
+    background-position: center;
+}
+
+.menutop {
+    padding-top: 35px;
+    margin: 0 auto;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    height: 85px;
+    align-items: center;
+}
+
+.menutop-link {
+    display: flex;
+    font-family: Lato;
+    src: url(fonts/Lato-Bold.ttf);
+    font-size: 13pt;
+    font-weight: 550;
+    color: #4d4959;
+}
+
+.menutop-logo {
+    size: 100%;
+}
+
+.about {
+    height: 469px;
+    background-color: #f7f7f7;
+    
+}
+
+.about-items {
+    margin: 0 auto;
+    width: 60%;
+}
