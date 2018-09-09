@@ -325,6 +325,7 @@ span {
     font-size: 11pt;
     font-weight: bold;
     letter-spacing: 1pt;
+    cursor: pointer
 }
 
 .shop-button:hover {
@@ -337,6 +338,7 @@ span {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     letter-spacing: 1pt;
+    cursor: pointer
 }
 
 
@@ -392,6 +394,7 @@ span {
     font-weight: lighter;
     font-size: 150%;
     letter-spacing: 1pt;
+    cursor: pointer
 }
 
 .mail-button:hover {
@@ -403,6 +406,7 @@ span {
     font-weight: lighter;
     font-size: 150%;
     letter-spacing: 1pt;
+    cursor: pointer
 }
 
 .footer {
@@ -459,14 +463,17 @@ span {
 .alt-a {
     color: white;
     text-decoration: none;
+    cursor: pointer
 }
 
 a {
     color: #4d4959;
     text-decoration: none;
+    cursor: pointer
 }
 
 a:hover {
     color: #64c29e;
     text-decoration: none;
+    cursor: pointer
 }
